@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    border: 1px solid grey; 
+    border-radius: 10px;
+    margin: 3px;
+    height: 123px;
+    background-color: gainsboro;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    margin: 6%;
+    height: 50px;
+}
+.datepicker span{
+    display: block;
+    text-align: center;
+    
+}
+.datepicker{
+    display: block;
+    margin: 2%;
+    flex:1;
+}
+.dropdown{
+    margin: 2%;
+    text-align: center;
+    flex:1;
+}
+.Pricerange span{
+    margin: 2%;
+    display: block;
+    text-align: center;
+}
+.Pricerange{
+    margin: 2%;
+    display: block;
+    flex:1;
+}
+.Pricerange .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.min {
+    border:1px  gray;
+    margin: 2px;
+    width: 60px;
+    border-radius: 5px;
+}
+.max{
+    border:1px  gray;
+    margin: 2px;
+    width: 60px;
+    border-radius: 5px;
+}
+.proptype{
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
+    flex:1;
+}
+.proptype .input{
+    /* border:1px solid gray; */
+    
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+}
+.proptype .input input{
+    border:1px  gray;
+    border-radius: 5px;
+    margin: 2%;
+    width: 60px;
+}
